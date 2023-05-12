@@ -17,7 +17,7 @@ WALLET_SERVER_URL = 'http://localhost:3001'
 First, run the server:
 
 ```bash
-nodemon server.js
+PORT=3000 nodemon server.js
 ```
 
 Use the postman collection to test the APIs.
